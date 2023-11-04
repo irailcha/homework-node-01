@@ -5,8 +5,7 @@ const { nanoid } = require('nanoid');
 
 
 const contactsPath = path.join(__dirname, './db/contacts.json');
-console.log(__dirname)
-console.log(contactsPath);
+
 
 
 async function listContacts() {
